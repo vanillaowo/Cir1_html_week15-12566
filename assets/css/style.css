@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ----------------
+# Top Header
+-------------------*/
+.header {
+    margin-bottom: 0;
+}
+
+.top-header{
+    background-color: #5BE6AF;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+    
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.site-info{
+    float: left;
+}
+.site-contact{
+    float: right;
+}
+
+.middle-header{
+    background-color: #ffffff;
+    padding: 10px 0px;
+}
+
+.site-name{
+    float: left;
+}
+
+.site-name a { 
+    color: #333;
+    text-decoration: none;
+}
+
+.site-name a span.home{
+    color: #5BE6AF;
+    text-decoration: none;
+}
+
+.site-nav{
+    float: right;
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav ul{
+    display: flex;
+}
+
+.site-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.site-nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-nav ul li.active a{
+    color: #5BE6AF;
+}
+
+.site-nav ul li a:hover{
+    color: #5BE6AF;
+}
+
+.bottom-header{
+    display: block;
+    margin: 0 auto;
+}
+
+.banner{
+    display: block;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.box-project{
+    width: 1170px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -90px;
+  }
+
+.box-info{
+    background: #fff;
+    width: 20%;
+    float:left;
+    margin-left: 20px;
+    text-align: center;
+    /* padding: 20px 20px; */
+  }
+
+.box-info-main{
+    background: #fff;
+    width: 20%;
+    float:left;
+    margin-right: 20px;
+    text-align: center;
+    /* padding: 20px 20px; */
+  }
+
+.box-info:nth-child(4){
+    margin-right: 0px;
+}
+
+.icon-cate{
+    font-size: 50px;
+    color: #5BE6AF;
+    border-bottom: 2px solid #5BE6AF;
+    padding: 20px 20px;
+}
+
+.title-cate{
+    padding: 20px 20px;
+}
+
+.title-cate h2{
+    font-size: 16px;
+}
+
+.desription-cate{
+    padding: 0px 20px 20px 20px ;
+    text-align: left;
+}
+
+.main{
+    padding: 250px 20px 20px 20px;
+    text-align: center;
+}
+
+.page-description{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.box-img img{
+    width: 100%;
+}
+
+.title-page{
+    text-align: left;
+    padding: 20px 0px 10px 0px;
+}
+
+.title-page h3{
+    font-size: 16px;
+    color: #5BE6AF;
+}
+
+.desription-page{
+    text-align: left;
+    padding: 0px;
+}
+
+.content{
+    padding: 0px 0px 50px 0px;
+}
